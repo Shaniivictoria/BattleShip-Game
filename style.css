@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+
+.gameBoard{
+    border: solid  yellow;
+    height: 42vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40%;
+}
+
+.hp1{
+    border: soild red;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: red;
+    
+
+}
+
+.playerTwo{
+    border: soild blue;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+  background-color: blue;
+  height: 90px;
+    width: 90px;
+}
+
