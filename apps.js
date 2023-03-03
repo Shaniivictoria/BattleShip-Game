@@ -8,6 +8,9 @@
 // if player one shoots player two then player two dies and player one wins
 //if player two shoots player one then player one dies and player two wins. 
 
+alert('Save Earth from the bad Alien Ships')
+
+
 //player One
 const heroShip ={
 hull: -20,
@@ -70,4 +73,19 @@ console.log(hull -= shoot)
 
 if(badAlien[0].hull < 0){
     badAlien.shift()
+
+badAlien.shift()
+console.log(badAlien[0].hull)
 }
+console.log(badAlien)
+
+
+
+
+
+
+
+
+
+
+let newGame = prompt("New Game");
