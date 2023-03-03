@@ -56,3 +56,9 @@ let badAlien6 ={
 
 const badAlien= [badAlien1, badAlien2, badAlien3, badAlien4, badAlien5, badAlien6]
 console.log(badAlien)
+
+let a = badAlien.shift()
+console.log(a)
+console.log(badAlien)
+let shoot = spaceship.firepower
+console.log(shoot)
