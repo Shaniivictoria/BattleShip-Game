@@ -52,3 +52,7 @@ let badAlien6 ={
     firepower: 3,
     accuracy: .6
 }
+
+
+const badAlien= [badAlien1, badAlien2, badAlien3, badAlien4, badAlien5, badAlien6]
+console.log(badAlien)
