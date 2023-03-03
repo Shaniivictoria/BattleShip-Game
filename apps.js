@@ -81,11 +81,16 @@ console.log(badAlien)
 
 
 
+class Alien{
+    constructor (numner){
+        this.alienNumber = number,
+        this.hull = random(3, 6),
+        this.firepower = random(2,4),
+        this.accuracy = randomDecimal()
+    }
+}
 
 
 
 
 
-
-
-let newGame = prompt("New Game");
