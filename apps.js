@@ -62,3 +62,6 @@ console.log(a)
 console.log(badAlien)
 let shoot = spaceship.firepower
 console.log(shoot)
+
+let hull = badAlien[0].hull
+console.log(hull)
