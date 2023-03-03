@@ -65,3 +65,9 @@ console.log(shoot)
 
 let hull = badAlien[0].hull
 console.log(hull)
+
+console.log(hull -= shoot)
+
+if(badAlien[0].hull < 0){
+    badAlien.shift()
+}
