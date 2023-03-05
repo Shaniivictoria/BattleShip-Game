@@ -3,28 +3,27 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Alien Battleship</title>
+        <title>Space Battle</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-      <!--main container-->
-      <div class="gameBoard">
-
-         <!--second container-->
-        <div class="playerOne">
-           <div class="hp1"></div>
+        <div class="mainContainer">
+            <div class="battleField">
+                <div class="spaceship">
+                    <img src="https://us.123rf.com/450wm/onyxprj/onyxprj2102/onyxprj210200099/163269898-blue-ufo-lights-aliens-spaceship-spotlight-3d-space-object-isolated-on-transparent-background.jpg?ver=6">
+                </div>
+                <div class="alienspaceship">
+                    <img  class="img2" src="https://png.pngtree.com/png-clipart/20211016/ourmid/pngtree-spaceship-flying-saucer-alien-light-effect-png-image_3985133.png">
+                </div>
+            </div>
+            <div class="gameBoard">
+                <button class="startGame">Attack</button>
+                <button id="retreat">Retreat</button>
+            </div>
         </div>
-
-        <!--Third Container-->
-        <div class="playerTwo">
-        <div class="hp2"></div>
-          </div>
-
-      </div>
-
-
-        <script src="apps.js" async defer></script>
+     
+        <script src="main.js" async defer></script>
     </body>
 </html>
