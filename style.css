@@ -2,34 +2,58 @@ body{
     background-color: black;
 }
 
+.mainContainer{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    border: solid black;
+    height:80vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE5bpugnbDbQFeDVtRRkaIOdP-1vRUtf_fIQYWlsGIdg&usqp=CAU&ec=48600112');
+    background-size: cover;
+}
+
+.battleField{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spaceship{
+    width: 10%;
+    border: solid orange;
+    height: 10%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.alienship{
+    width: 20%;
+    border: solid green;
+    height: 50%; 
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.startGame{
+    width: 20%;
+    height: 5vh;
+    background-color: blue;
+    color: white;
+}
 
 .gameBoard{
-    border: solid  yellow;
-    height: 42vh;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 40%;
+    width:50%;
+    margin: auto;
 }
 
-.hp1{
-    border: soild red;
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    height: 90px;
-    width: 90px;
-    background-color: red;
-    
-
+.img2{
+    width: 50%;
+    opacity: .5;
 }
 
-.playerTwo{
-    border: soild blue;
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-  background-color: blue;
-  height: 90px;
-    width: 90px;
+#retreat{
+    width: 20%;
+    height: 5vh;
+    background-color: purple;
+    color: white;
 }
-
